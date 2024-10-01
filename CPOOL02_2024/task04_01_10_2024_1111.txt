@@ -1,0 +1,40 @@
+====================
+ task01
+====================
+
+# Executing all tests...
+# OK
+
+task01: SUCCESS
+
+====================
+ task02
+====================
+
+# Executing all tests...
+# OK
+
+task02: SUCCESS
+
+====================
+ task03
+====================
+
+# Executing all tests...
+# OK
+
+task03: SUCCESS
+
+====================
+ task04
+====================
+
+# Executing all tests...
+# Got:
+127
+# But expected:
+108
+# Test failed: invalid output.
+
+task04: FAILURE
+

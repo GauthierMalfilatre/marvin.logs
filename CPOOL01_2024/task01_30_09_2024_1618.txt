@@ -1,0 +1,16 @@
+====================
+ task01
+====================
+
+# Executing all tests...
+# Got:
+-rw-rw-r-- 1  0  test01
+-rwxrwxr-x 1 40  test02
+lrwxrwxrwx 1  6  test03 -> test02
+# But expected:
+-rw-rw-r-- 1  0  test01
+-rwxrwxr-x 1 41  test02
+lrwxrwxrwx 1  6  test03 -> test02
+# Test failed: invalid output.
+
+task01: FAILURE
