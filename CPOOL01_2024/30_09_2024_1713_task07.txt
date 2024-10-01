@@ -1,0 +1,167 @@
+====================
+ task01
+====================
+
+# Executing all tests...
+# OK
+
+task01: SUCCESS
+
+====================
+ task02
+====================
+
+# Executing all tests...
+# OK
+
+task02: SUCCESS
+
+====================
+ task03
+====================
+
+# Executing all tests...
+# OK
+
+task03: SUCCESS
+
+====================
+ task04
+====================
+
+# Executing all tests...
+# OK
+
+task04: SUCCESS
+
+====================
+ task05
+====================
+
+# Executing all tests...
+# OK
+
+task05: SUCCESS
+
+====================
+ task06
+====================
+
+# Executing all tests...
+# OK
+
+task06: SUCCESS
+
+====================
+ task07
+====================
+
+# Executing all tests...
+# Got (truncated in the middle):
+"."/
+|-- "1910s"/
+|   |-- "1911" -> "../Solvay Conferences on Physics/The theory of radiation and quanta"/
+|   `-- "1913" -> "../Solvay Conferences on Physics/The structure of matter"/
+|-- "1920s"/
+|   |-- "1921" -> "../Solvay Conferences on Physics/Atoms and electrons"/
+|   |-- "1924" -> "../Solvay Conferences on Physics/Electric conductivity of metals and related problems"/
+|   `-- "1927" -> "../Solvay Conferences on Physics/Electrons and photons"/
+|-- "1930s"/
+|   |-- "1930" -> "../Solvay Conferences on Physics/Magnetism"/
+|   |-- "1931" -> "../Solvay Conferences on Chemistry/Constitution and Configuration of Organic Molecules"/
+|   |-- "1934" -> "../Solvay Conferences on Chemistry/Oxygen, and its chemical and biological reactions"/
+|   `-- "1937" -> "../Solvay Conferences on Chemistry/Vitamins and Hormones"/
+|-- "1940s"/
+|   `-- "1947" -> "../Solvay Conferences on Chemistry/Isotopes"/
+|-- "Professors"/
+|   |-- "Frederic Swarts"
+|   |-- "Hendrick Lorentz"
+|   |-- "Paul Karrer"
+|   |
+[TRUNCATED]
+itamins and Hormones"/
+|       `-- "chair" -> "../../Professors/Frederic Swarts"
+`-- "Solvay Conferences on Physics"/
+    |-- "Atoms and electrons"/
+    |   `-- "chair" -> "../../Professors/Hendrick Lorentz"
+    |-- "Electric conductivity of metals and related problems"/
+    |   `-- "chair" -> "../../Professors/Hendrick Lorentz"
+    |-- "Electrons and photons"/
+    |   |-- "chair" -> "../../Professors/Hendrick Lorentz"
+    |   `-- "Participants"/
+    |       |-- "A. Einstein"
+    |       |-- "E. Schrodinger"
+    |       |-- "H.A. Lorentz"
+    |       |-- "M. Planck"
+    |       |-- "M. Sklodowska-Curie"
+    |       |-- "N. Bohr"
+    |       |-- "W. Heisenberg"
+    |       `-- "W.L. Bragg"
+    |-- "Magnetism"/
+    |   `-- "chair" -> "../../Professors/Paul Langevin"
+    |-- "The structure of matter"/
+    |   `-- "chair" -> "../../Professors/Hendrick Lorentz"
+    `-- "The theory of radiation and quanta"/
+        `-- "chair" -> "../../Professors/Hendrick Lorentz"
+
+29 directories, 23 files
+# But expected:
+"."/
+|-- "1910s"/
+|   |-- "1911" -> "../Solvay Conferences on Physics/The theory of radiation and quanta"/
+|   `-- "1913" -> "../Solvay Conferences on Physics/The structure of matter"/
+|-- "1920s"/
+|   |-- "1921" -> "../Solvay Conferences on Physics/Atoms and electrons"/
+|   |-- "1924" -> "../Solvay Conferences on Physics/Electric conductivity of metals and related problems"/
+|   `-- "1927" -> "../Solvay Conferences on Physics/Electrons and photons"/
+|-- "1930s"/
+|   |-- "1930" -> "../Solvay Conferences on Physics/Magnetism"/
+|   |-- "1931" -> "../Solvay Conferences on Chemistry/Constitution and Configuration of Organic Molecules"/
+|   |-- "1934" -> "../Solvay Conferences on Chemistry/Oxygen, and its chemical and biological reactions"/
+|   `-- "1937" -> "../Solvay Conferences on Chemistry/Vitamins and Hormones"/
+|-- "1940s"/
+|   `-- "1947" -> "../Solvay Conferences on Chemistry/Isotopes"/
+|-- "1950s"/
+|-- "Professors"/
+|   |-- "Frederic Swarts"
+|   |-- "Hendrik Lorentz"
+|   |-- "Paul Karrer"
+|   |-- "Paul Langevin"
+|   `-- "William Jackson Pope"
+|-- "Solvay Conferences on Chemistry"/
+|   |-- "Constitution and Configuration of Organic Molecules"/
+|   |   `-- "chair" -> "../../Professors/William Jackson Pope"
+|   |-- "Isotopes"/
+|   |   |-- "chair" -> "../../Professors/Paul Karrer"
+|   |   `-- "participants"/
+|   |-- "Oxygen, and its chemical and biological reactions"/
+|   |   `-- "chair" -> "../../Professors/William Jackson Pope"
+|   `-- "Vitamins and Hormones"/
+|       `-- "chair" -> "../../Professors/Frederic Swarts"
+`-- "Solvay Conferences on Physics"/
+    |-- "Atoms and electrons"/
+    |   `-- "chair" -> "../../Professors/Hendrik Lorentz"
+    |-- "Electric conductivity of metals and related problems"/
+    |   `-- "chair" -> "../../Professors/Hendrik Lorentz"
+    |-- "Electrons and photons"/
+    |   |-- "chair" -> "../../Professors/Hendrik Lorentz"
+    |   `-- "participants"/
+    |       |-- "A. Einstein"
+    |       |-- "E. Schrodinger"
+    |       |-- "H.A. Lorentz"
+    |       |-- "M. Planck"
+    |       |-- "M. Sklodowska-Curie"
+    |       |-- "N. Bohr"
+    |       |-- "W. Heisenberg"
+    |       `-- "W.L. Bragg"
+    |-- "Magnetism"/
+    |   `-- "chair" -> "../../Professors/Paul Langevin"
+    |-- "The structure of matter"/
+    |   `-- "chair" -> "../../Professors/Hendrik Lorentz"
+    `-- "The theory of radiation and quanta"/
+        `-- "chair" -> "../../Professors/Hendrik Lorentz"
+
+31 directories, 23 files
+# Test failed: invalid output.
+
+task07: FAILURE
