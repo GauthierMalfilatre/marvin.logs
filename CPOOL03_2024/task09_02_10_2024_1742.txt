@@ -1,0 +1,479 @@
+====================
+ task01
+====================
+
+# Building...
+~/.> gcc -fno-builtin -W -Wall -o my_print_alpha test_files/my_putchar.c test_files/day03/task01.c *.c
+my_isneg.c: In function ‘my_isneg’:
+my_isneg.c:14:5: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   14 |     my_putchar(p);
+      |     ^~~~~~~~~~
+my_print_alpha.c: In function ‘my_print_alpha’:
+my_print_alpha.c:13:9: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(i);
+      |         ^~~~~~~~~~
+my_print_comb2.c: In function ‘my_print_comb2’:
+my_print_comb2.c:17:13: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   17 |             my_putchar(i / 1000 + 48);
+      |             ^~~~~~~~~~
+my_print_comb.c: In function ‘my_print_comb’:
+my_print_comb.c:17:13: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   17 |             my_putchar(i / 100 + 48);
+      |             ^~~~~~~~~~
+my_print_combn.c: In function ‘ma_fonction_de_l_enfer’:
+my_print_combn.c:12:37: 
+[TRUNCATED]
+ion ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(',');
+      |         ^~~~~~~~~~
+my_print_combn.c: In function ‘my_print_combn’:
+my_print_combn.c:88:1: warning: control reaches end of non-void function [-Wreturn-type]
+   88 | }
+      | ^
+my_print_digits.c: In function ‘my_print_digits’:
+my_print_digits.c:13:9: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(i);
+      |         ^~~~~~~~~~
+my_print_revalpha.c: In function ‘my_print_revalpha’:
+my_print_revalpha.c:13:9: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(i);
+      |         ^~~~~~~~~~
+my_put_nbr.c: In function ‘lim_neg’:
+my_put_nbr.c:12:5: warning: implicit declaration of function ‘my_putchar’; did you mean ‘my_put_nbr’? [-Wimplicit-function-declaration]
+   12 |     my_putchar('-');
+      |     ^~~~~~~~~~
+      |     my_put_nbr
+# OK
+
+# Checking for forbidden functions...
+# Allowed functions: write
+# OK
+
+# Executing all tests...
+# OK
+
+task01: SUCCESS
+
+====================
+ task02
+====================
+
+# Building...
+~/.> gcc -fno-builtin -W -Wall -o my_print_revalpha test_files/my_putchar.c test_files/day03/task02.c *.c
+my_isneg.c: In function ‘my_isneg’:
+my_isneg.c:14:5: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   14 |     my_putchar(p);
+      |     ^~~~~~~~~~
+my_print_alpha.c: In function ‘my_print_alpha’:
+my_print_alpha.c:13:9: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(i);
+      |         ^~~~~~~~~~
+my_print_comb2.c: In function ‘my_print_comb2’:
+my_print_comb2.c:17:13: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   17 |             my_putchar(i / 1000 + 48);
+      |             ^~~~~~~~~~
+my_print_comb.c: In function ‘my_print_comb’:
+my_print_comb.c:17:13: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   17 |             my_putchar(i / 100 + 48);
+      |             ^~~~~~~~~~
+my_print_combn.c: In function ‘ma_fonction_de_l_enfer’:
+my_print_combn.c:12:37: 
+[TRUNCATED]
+ion ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(',');
+      |         ^~~~~~~~~~
+my_print_combn.c: In function ‘my_print_combn’:
+my_print_combn.c:88:1: warning: control reaches end of non-void function [-Wreturn-type]
+   88 | }
+      | ^
+my_print_digits.c: In function ‘my_print_digits’:
+my_print_digits.c:13:9: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(i);
+      |         ^~~~~~~~~~
+my_print_revalpha.c: In function ‘my_print_revalpha’:
+my_print_revalpha.c:13:9: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(i);
+      |         ^~~~~~~~~~
+my_put_nbr.c: In function ‘lim_neg’:
+my_put_nbr.c:12:5: warning: implicit declaration of function ‘my_putchar’; did you mean ‘my_put_nbr’? [-Wimplicit-function-declaration]
+   12 |     my_putchar('-');
+      |     ^~~~~~~~~~
+      |     my_put_nbr
+# OK
+
+# Checking for forbidden functions...
+# Allowed functions: write
+# OK
+
+# Executing all tests...
+# OK
+
+task02: SUCCESS
+
+====================
+ task03
+====================
+
+# Building...
+~/.> gcc -fno-builtin -W -Wall -o my_print_digits test_files/my_putchar.c test_files/day03/task03.c *.c
+my_isneg.c: In function ‘my_isneg’:
+my_isneg.c:14:5: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   14 |     my_putchar(p);
+      |     ^~~~~~~~~~
+my_print_alpha.c: In function ‘my_print_alpha’:
+my_print_alpha.c:13:9: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(i);
+      |         ^~~~~~~~~~
+my_print_comb2.c: In function ‘my_print_comb2’:
+my_print_comb2.c:17:13: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   17 |             my_putchar(i / 1000 + 48);
+      |             ^~~~~~~~~~
+my_print_comb.c: In function ‘my_print_comb’:
+my_print_comb.c:17:13: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   17 |             my_putchar(i / 100 + 48);
+      |             ^~~~~~~~~~
+my_print_combn.c: In function ‘ma_fonction_de_l_enfer’:
+my_print_combn.c:12:37: 
+[TRUNCATED]
+ion ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(',');
+      |         ^~~~~~~~~~
+my_print_combn.c: In function ‘my_print_combn’:
+my_print_combn.c:88:1: warning: control reaches end of non-void function [-Wreturn-type]
+   88 | }
+      | ^
+my_print_digits.c: In function ‘my_print_digits’:
+my_print_digits.c:13:9: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(i);
+      |         ^~~~~~~~~~
+my_print_revalpha.c: In function ‘my_print_revalpha’:
+my_print_revalpha.c:13:9: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(i);
+      |         ^~~~~~~~~~
+my_put_nbr.c: In function ‘lim_neg’:
+my_put_nbr.c:12:5: warning: implicit declaration of function ‘my_putchar’; did you mean ‘my_put_nbr’? [-Wimplicit-function-declaration]
+   12 |     my_putchar('-');
+      |     ^~~~~~~~~~
+      |     my_put_nbr
+# OK
+
+# Checking for forbidden functions...
+# Allowed functions: write
+# OK
+
+# Executing all tests...
+# OK
+
+task03: SUCCESS
+
+====================
+ task04
+====================
+
+# Building...
+~/.> gcc -fno-builtin -W -Wall -o my_isneg test_files/my_putchar.c test_files/minilib.c test_files/day03/task04.c *.c
+my_isneg.c: In function ‘my_isneg’:
+my_isneg.c:14:5: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   14 |     my_putchar(p);
+      |     ^~~~~~~~~~
+my_print_alpha.c: In function ‘my_print_alpha’:
+my_print_alpha.c:13:9: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(i);
+      |         ^~~~~~~~~~
+my_print_comb2.c: In function ‘my_print_comb2’:
+my_print_comb2.c:17:13: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   17 |             my_putchar(i / 1000 + 48);
+      |             ^~~~~~~~~~
+my_print_comb.c: In function ‘my_print_comb’:
+my_print_comb.c:17:13: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   17 |             my_putchar(i / 100 + 48);
+      |             ^~~~~~~~~~
+my_print_combn.c: In function ‘ma_fonction_de_l_enfer’:
+my_print_combn.c:12:37: 
+[TRUNCATED]
+ion ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(',');
+      |         ^~~~~~~~~~
+my_print_combn.c: In function ‘my_print_combn’:
+my_print_combn.c:88:1: warning: control reaches end of non-void function [-Wreturn-type]
+   88 | }
+      | ^
+my_print_digits.c: In function ‘my_print_digits’:
+my_print_digits.c:13:9: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(i);
+      |         ^~~~~~~~~~
+my_print_revalpha.c: In function ‘my_print_revalpha’:
+my_print_revalpha.c:13:9: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(i);
+      |         ^~~~~~~~~~
+my_put_nbr.c: In function ‘lim_neg’:
+my_put_nbr.c:12:5: warning: implicit declaration of function ‘my_putchar’; did you mean ‘my_put_nbr’? [-Wimplicit-function-declaration]
+   12 |     my_putchar('-');
+      |     ^~~~~~~~~~
+      |     my_put_nbr
+# OK
+
+# Checking for forbidden functions...
+# Allowed functions: write
+# OK
+
+# Executing all tests...
+# OK
+
+task04: SUCCESS
+
+====================
+ task05
+====================
+
+# Building...
+~/.> gcc -fno-builtin -W -Wall -o my_print_comb test_files/my_putchar.c test_files/day03/task05.c *.c
+my_isneg.c: In function ‘my_isneg’:
+my_isneg.c:14:5: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   14 |     my_putchar(p);
+      |     ^~~~~~~~~~
+my_print_alpha.c: In function ‘my_print_alpha’:
+my_print_alpha.c:13:9: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(i);
+      |         ^~~~~~~~~~
+my_print_comb2.c: In function ‘my_print_comb2’:
+my_print_comb2.c:17:13: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   17 |             my_putchar(i / 1000 + 48);
+      |             ^~~~~~~~~~
+my_print_comb.c: In function ‘my_print_comb’:
+my_print_comb.c:17:13: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   17 |             my_putchar(i / 100 + 48);
+      |             ^~~~~~~~~~
+my_print_combn.c: In function ‘ma_fonction_de_l_enfer’:
+my_print_combn.c:12:37: 
+[TRUNCATED]
+ion ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(',');
+      |         ^~~~~~~~~~
+my_print_combn.c: In function ‘my_print_combn’:
+my_print_combn.c:88:1: warning: control reaches end of non-void function [-Wreturn-type]
+   88 | }
+      | ^
+my_print_digits.c: In function ‘my_print_digits’:
+my_print_digits.c:13:9: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(i);
+      |         ^~~~~~~~~~
+my_print_revalpha.c: In function ‘my_print_revalpha’:
+my_print_revalpha.c:13:9: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(i);
+      |         ^~~~~~~~~~
+my_put_nbr.c: In function ‘lim_neg’:
+my_put_nbr.c:12:5: warning: implicit declaration of function ‘my_putchar’; did you mean ‘my_put_nbr’? [-Wimplicit-function-declaration]
+   12 |     my_putchar('-');
+      |     ^~~~~~~~~~
+      |     my_put_nbr
+# OK
+
+# Checking for forbidden functions...
+# Allowed functions: write
+# OK
+
+# Executing all tests...
+# OK
+
+task05: SUCCESS
+
+====================
+ task06
+====================
+
+# Building...
+~/.> gcc -fno-builtin -W -Wall -o my_print_comb2 test_files/my_putchar.c test_files/day03/task06.c *.c
+my_isneg.c: In function ‘my_isneg’:
+my_isneg.c:14:5: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   14 |     my_putchar(p);
+      |     ^~~~~~~~~~
+my_print_alpha.c: In function ‘my_print_alpha’:
+my_print_alpha.c:13:9: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(i);
+      |         ^~~~~~~~~~
+my_print_comb2.c: In function ‘my_print_comb2’:
+my_print_comb2.c:17:13: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   17 |             my_putchar(i / 1000 + 48);
+      |             ^~~~~~~~~~
+my_print_comb.c: In function ‘my_print_comb’:
+my_print_comb.c:17:13: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   17 |             my_putchar(i / 100 + 48);
+      |             ^~~~~~~~~~
+my_print_combn.c: In function ‘ma_fonction_de_l_enfer’:
+my_print_combn.c:12:37: 
+[TRUNCATED]
+ion ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(',');
+      |         ^~~~~~~~~~
+my_print_combn.c: In function ‘my_print_combn’:
+my_print_combn.c:88:1: warning: control reaches end of non-void function [-Wreturn-type]
+   88 | }
+      | ^
+my_print_digits.c: In function ‘my_print_digits’:
+my_print_digits.c:13:9: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(i);
+      |         ^~~~~~~~~~
+my_print_revalpha.c: In function ‘my_print_revalpha’:
+my_print_revalpha.c:13:9: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(i);
+      |         ^~~~~~~~~~
+my_put_nbr.c: In function ‘lim_neg’:
+my_put_nbr.c:12:5: warning: implicit declaration of function ‘my_putchar’; did you mean ‘my_put_nbr’? [-Wimplicit-function-declaration]
+   12 |     my_putchar('-');
+      |     ^~~~~~~~~~
+      |     my_put_nbr
+# OK
+
+# Checking for forbidden functions...
+# Allowed functions: write
+# OK
+
+# Executing all tests...
+# OK
+
+task06: SUCCESS
+
+====================
+ task07
+====================
+
+# Building...
+~/.> gcc -fno-builtin -W -Wall -o my_put_nbr test_files/my_putchar.c test_files/minilib.c test_files/day03/task07.c *.c
+my_isneg.c: In function ‘my_isneg’:
+my_isneg.c:14:5: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   14 |     my_putchar(p);
+      |     ^~~~~~~~~~
+my_print_alpha.c: In function ‘my_print_alpha’:
+my_print_alpha.c:13:9: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(i);
+      |         ^~~~~~~~~~
+my_print_comb2.c: In function ‘my_print_comb2’:
+my_print_comb2.c:17:13: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   17 |             my_putchar(i / 1000 + 48);
+      |             ^~~~~~~~~~
+my_print_comb.c: In function ‘my_print_comb’:
+my_print_comb.c:17:13: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   17 |             my_putchar(i / 100 + 48);
+      |             ^~~~~~~~~~
+my_print_combn.c: In function ‘ma_fonction_de_l_enfer’:
+my_print_combn.c:12:37: 
+[TRUNCATED]
+ion ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(',');
+      |         ^~~~~~~~~~
+my_print_combn.c: In function ‘my_print_combn’:
+my_print_combn.c:88:1: warning: control reaches end of non-void function [-Wreturn-type]
+   88 | }
+      | ^
+my_print_digits.c: In function ‘my_print_digits’:
+my_print_digits.c:13:9: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(i);
+      |         ^~~~~~~~~~
+my_print_revalpha.c: In function ‘my_print_revalpha’:
+my_print_revalpha.c:13:9: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(i);
+      |         ^~~~~~~~~~
+my_put_nbr.c: In function ‘lim_neg’:
+my_put_nbr.c:12:5: warning: implicit declaration of function ‘my_putchar’; did you mean ‘my_put_nbr’? [-Wimplicit-function-declaration]
+   12 |     my_putchar('-');
+      |     ^~~~~~~~~~
+      |     my_put_nbr
+# OK
+
+# Checking for forbidden functions...
+# Allowed functions: write
+# OK
+
+# Executing all tests...
+# OK
+
+task07: SUCCESS
+
+====================
+ task08
+====================
+
+# Building...
+~/.> gcc -fno-builtin -W -Wall -o tests_my_put_nbr test_files/day03/my_putchar.c test_files/minilib.c test_files/day03/task08.c tests/tests_my_put_nbr.c
+test_files/day03/my_putchar.c: In function ‘my_putchar’:
+test_files/day03/my_putchar.c:3:25: warning: unused parameter ‘c’ [-Wunused-parameter]
+    3 | int     my_putchar(char c)
+      |                    ~~~~~^
+tests/tests_my_put_nbr.c: In function ‘main’:
+tests/tests_my_put_nbr.c:9:14: warning: unused parameter ‘argc’ [-Wunused-parameter]
+    9 | int main(int argc, char *argv[]) {
+      |          ~~~~^~~~
+tests/tests_my_put_nbr.c:9:26: warning: unused parameter ‘argv’ [-Wunused-parameter]
+    9 | int main(int argc, char *argv[]) {
+      |                    ~~~~~~^~~~~~
+# OK
+
+# Checking for forbidden functions...
+# Allowed functions: write
+# OK
+
+# Executing all tests...
+# OK
+
+task08: SUCCESS
+
+====================
+ task09
+====================
+
+# Building...
+~/.> gcc -fno-builtin -W -Wall -o my_print_combn test_files/my_putchar.c test_files/minilib.c test_files/day03/task09.c *.c
+my_isneg.c: In function ‘my_isneg’:
+my_isneg.c:14:5: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   14 |     my_putchar(p);
+      |     ^~~~~~~~~~
+my_print_alpha.c: In function ‘my_print_alpha’:
+my_print_alpha.c:13:9: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(i);
+      |         ^~~~~~~~~~
+my_print_comb2.c: In function ‘my_print_comb2’:
+my_print_comb2.c:17:13: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   17 |             my_putchar(i / 1000 + 48);
+      |             ^~~~~~~~~~
+my_print_comb.c: In function ‘my_print_comb’:
+my_print_comb.c:17:13: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   17 |             my_putchar(i / 100 + 48);
+      |             ^~~~~~~~~~
+my_print_combn.c: In function ‘ma_fonction_de_l_enfer’:
+my_print_combn.c:12:37: 
+[TRUNCATED]
+ion ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(',');
+      |         ^~~~~~~~~~
+my_print_combn.c: In function ‘my_print_combn’:
+my_print_combn.c:88:1: warning: control reaches end of non-void function [-Wreturn-type]
+   88 | }
+      | ^
+my_print_digits.c: In function ‘my_print_digits’:
+my_print_digits.c:13:9: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(i);
+      |         ^~~~~~~~~~
+my_print_revalpha.c: In function ‘my_print_revalpha’:
+my_print_revalpha.c:13:9: warning: implicit declaration of function ‘my_putchar’ [-Wimplicit-function-declaration]
+   13 |         my_putchar(i);
+      |         ^~~~~~~~~~
+my_put_nbr.c: In function ‘lim_neg’:
+my_put_nbr.c:12:5: warning: implicit declaration of function ‘my_putchar’; did you mean ‘my_put_nbr’? [-Wimplicit-function-declaration]
+   12 |     my_putchar('-');
+      |     ^~~~~~~~~~
+      |     my_put_nbr
+# OK
+
+# Checking for forbidden functions...
+# Allowed functions: write
+# OK
+
+# Executing all tests...
+# Got:
+12, 13, 14, 15, 16, 17, 18, 19, 23, 24, 25, 26, 27, 28, 29, 34, 35, 36, 37, 38, 39, 45, 46, 47, 48, 49, 56, 57, 58, 59, 67, 68, 69, 78, 79, 89
+# But expected:
+01, 02, 03, 04, 05, 06, 07, 08, 09, 12, 13, 14, 15, 16, 17, 18, 19, 23, 24, 25, 26, 27, 28, 29, 34, 35, 36, 37, 38, 39, 45, 46, 47, 48, 49, 56, 57, 58, 59, 67, 68, 69, 78, 79, 89
+# Test failed: invalid output.
+
+task09: FAILURE
